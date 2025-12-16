@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="96bb9a2a-afd4-4204-a876-411798382cc1" name="Changes" comment="updated README" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1765889495" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1765889494" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="36vYDGLTwkn5zPmrtDyUfnV1wkl" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-cffe25b9f5b3-intellij.indexing.shared.core-IU-253.28294.334" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96bb9a2a-afd4-4204-a876-411798382cc1" name="Changes" comment="" />
+      <created>1765888394892</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1765888394892</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Added code for App.js&#10;Description of code : &#10;This code defines the layout of a simple calculator UI using React. It creates a grid of buttons for digits, operations (+, -, *, /), and controls (AC, DEL, =), along with a display area for showing the current and previous operands. The styling is handled via Styles.css, and the logic (like handling button clicks or calculations) would be added separately. Right now, it’s a clean visual skeleton ready for functionality.">
+      <option name="closed" value="true" />
+      <created>1765893119751</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765893119751</updated>
+    </task>
+    <task id="LOCAL-00002" summary="adjusted App.js for DigitButtons and OperationButtons.&#10;&#10;Added DigitButtons.js (handles logic and structure): &#10;This component renders a calculator button for a single digit.&#10;When clicked, it dispatches an ADD_DIGIT action to the reducer in App.js.&#10;The digit passed in (0–9 or .) is added to the current operand.&#10;&#10;it’s the reusable building block for all number buttons in your calculator.&#10;&#10;Added OperationButton.js(handles logic and structure): &#10;This component renders a calculator button for an operation (+, -, *, ÷).&#10;When clicked, it dispatches a CHOOSE_OPERATION action to the reducer in App.js.&#10;The chosen operation is stored in state so the calculator knows which arithmetic function to apply.&#10;it’s the reusable building block for all operator buttons.&#10;&#10;Added styles.css(handles styling):&#10;- built alongside the other components to adjust styling, position&#10;- it defines the layout (grid system), colors, fonts, spacing, and hover effects...&#10;&#10;Added index.js: &#10;-boots the app">
+      <option name="closed" value="true" />
+      <created>1765895050520</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1765895050520</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fixed index.js to support ReactDOM.render in react 18+ &#10;So, I imported from &quot;react-dom/client&quot; and used createRoot.&#10;&#10;also refactored file name of DigitButtons.js to DigitButton.js">
+      <option name="closed" value="true" />
+      <created>1765896891964</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1765896891964</updated>
+    </task>
+    <task id="LOCAL-00004" summary="updated README and styles.css">
+      <option name="closed" value="true" />
+      <created>1765897815411</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1765897815411</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updated README">
+      <option name="closed" value="true" />
+      <created>1765898953952</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1765898953952</updated>
+    </task>
+    <task id="LOCAL-00006" summary="updated README">
+      <option name="closed" value="true" />
+      <created>1765899290286</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1765899290286</updated>
+    </task>
+    <task id="LOCAL-00007" summary="changed font style, added borders to the grid">
+      <option name="closed" value="true" />
+      <created>1765916779139</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1765916779139</updated>
+    </task>
+    <task id="LOCAL-00008" summary="updated README">
+      <option name="closed" value="true" />
+      <created>1765917256081</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1765917256081</updated>
+    </task>
+    <task id="LOCAL-00009" summary="updated README">
+      <option name="closed" value="true" />
+      <created>1765917470889</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1765917470889</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added code for App.js&#10;Description of code : &#10;This code defines the layout of a simple calculator UI using React. It creates a grid of buttons for digits, operations (+, -, *, /), and controls (AC, DEL, =), along with a display area for showing the current and previous operands. The styling is handled via Styles.css, and the logic (like handling button clicks or calculations) would be added separately. Right now, it’s a clean visual skeleton ready for functionality." />
+    <MESSAGE value="adjusted App.js for DigitButtons and OperationButtons.&#10;&#10;Added DigitButtons.js (handles logic and structure): &#10;This component renders a calculator button for a single digit.&#10;When clicked, it dispatches an ADD_DIGIT action to the reducer in App.js.&#10;The digit passed in (0–9 or .) is added to the current operand.&#10;&#10;it’s the reusable building block for all number buttons in your calculator.&#10;&#10;Added OperationButton.js(handles logic and structure): &#10;This component renders a calculator button for an operation (+, -, *, ÷).&#10;When clicked, it dispatches a CHOOSE_OPERATION action to the reducer in App.js.&#10;The chosen operation is stored in state so the calculator knows which arithmetic function to apply.&#10;it’s the reusable building block for all operator buttons.&#10;&#10;Added styles.css(handles styling):&#10;- built alongside the other components to adjust styling, position&#10;- it defines the layout (grid system), colors, fonts, spacing, and hover effects...&#10;&#10;Added index.js: &#10;-boots the app" />
+    <MESSAGE value="fixed index.js to support ReactDOM.render in react 18+ &#10;So, I imported from &quot;react-dom/client&quot; and used createRoot.&#10;&#10;also refactored file name of DigitButtons.js to DigitButton.js" />
+    <MESSAGE value="updated README and styles.css" />
+    <MESSAGE value="changed font style, added borders to the grid" />
+    <MESSAGE value="updated README" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated README" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
