@@ -3,18 +3,22 @@
 }
 
 body {
-  margin: 0;
+  margin: 5;
   background: #9B111E;
   font-family: "Times New Roman", "Georgia", serif;
 }
 
 .calculator-grid {
   display: grid;
-  margin-top: 2rem;
-  justify-content: center;
+  margin: 2rem auto;
+  width: max-content;
   grid-template-columns: repeat(4, 6rem);
   grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
+  border: 3px solid black;
+  border-radius: 12px;
+  overflow: hidden;
 }
+
 
 .calculator-grid > button {
   cursor: pointer;
@@ -22,6 +26,7 @@ body {
   border: 1px solid white;
   outline: none;
   background-color: rgba(255, 255, 255, .75);
+  font-family: 'Cormorant Garamond', Garamond, serif;
 }
 
 .calculator-grid > button:hover,
@@ -48,9 +53,11 @@ body {
 .output .previous-operand {
   color: rgba(255, 255, 255, .75);
   font-size: 1.5rem;
+  font-family: 'Cormorant Garamond', Garamond, serif;
 }
 
 .output .current-operand {
   color: white;
   font-size: 2.5rem;
+  font-family: 'Cormorant Garamond', Garamond, serif;
 }
