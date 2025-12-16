@@ -27,4 +27,9 @@ It allows users to perform basic arithmetic operations (addition, subtraction, m
    using following terminal command in simpleCalculator/calculator directory :
    npm start
    The app will run at http://localhost:3000.
-4. **
+4. Challenges I faced : 
+ - The app wasn't running locally at first due to not being in the correct directory containing package.json
+ - Had issues rendering the UI since my code was calling ReactDOM.render but it was removed in react 18+
+   so, I had to import from "react-dom/client" and use createRoot to make it run.
+ - The app wasn't deploying due to incorrect setup of directory in Vercel
+ 
