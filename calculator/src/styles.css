@@ -4,7 +4,8 @@
 
 body {
   margin: 0;
-  background: linear-gradient(to right, #00AAFF, #00FF6C);
+  background: #9B111E;
+  font-family: "Times New Roman", "Georgia", serif;
 }
 
 .calculator-grid {
