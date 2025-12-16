@@ -32,4 +32,5 @@ It allows users to perform basic arithmetic operations (addition, subtraction, m
  - Had issues rendering the UI since my code was calling ReactDOM.render but it was removed in react 18+
    so, I had to import from "react-dom/client" and use createRoot to make it run.
  - The app wasn't deploying due to incorrect setup of directory in Vercel
- 
+5. 🔗 **Live Demo**
+[Open Calculator on Vercel](https://calculator-1fgvxw93d-abdullah-al-abir-shafins-projects.vercel.app/)
