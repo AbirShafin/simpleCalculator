@@ -33,4 +33,4 @@ It allows users to perform basic arithmetic operations (addition, subtraction, m
   so, I had to import from "react-dom/client" and use createRoot to make it run.
 - The app wasn't deploying due to incorrect setup of directory in Vercel
 5. 🔗 **Live Demo**
-   [Open Calculator on Vercel](https://calculator-e26qgqllq-abdullah-al-abir-shafins-projects.vercel.app/)
+   [Open Calculator on Vercel](https://simple-calculator-inky-two.vercel.app/)
